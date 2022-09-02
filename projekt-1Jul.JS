@@ -1,1 +1,2 @@
-onclick x 2
+if
+    onclick x=2
