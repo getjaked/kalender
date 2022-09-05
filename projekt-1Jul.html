@@ -3,6 +3,11 @@
     <head>
         <title>Julkalender</title>
         <meta charset="utf-8">
+        <label for="start">Start date:</label>
+
+        <input type="date" id="start" name="trip-start"
+            value="20XX-12-01"
+            min="20XX-01-01" max="20XX-12-31">
     </head>
     <body>
         <h1>Julkalendern</h1>
@@ -12,9 +17,9 @@
         <script>
             function pressed(){
                 var text = document.getElementById("inp").value;
-                if (X === "red"){
+                if (text === "red"){
                     document.getElementById("header").style.color = "red";
-                }else if (X === "purple"){
+                }else if (text === "purple"){
                     document.getElementById("header").style.color = "purple"; 
                 }else{
                     document.getElementById("header").style.color = "brown";
