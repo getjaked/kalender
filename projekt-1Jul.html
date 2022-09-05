@@ -1,37 +1,24 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <title>Julkalender</title>
-    <meta charset="utf-8">
-    <link rel="stylesheet" type="text/css" href="Julkalender.css">
-    
-</head>
-<body>
-    <h1>Julkalendern</h1>
-    <script src="js/projekt-1Jul.JS"></script>
-    <div class="cal">1</div>
-    <div class="cal">2</div>
-    <div class="cal">3</div> 
-    <div class="cal">4</div>
-    <div class="cal">5</div>
-    <div class="cal">6</div>
-    <div class="cal">7</div>
-    <div class="cal">8</div>
-    <div class="cal">9</div>
-    <div class="cal">10</div>
-    <div class="cal">11</div>
-    <div class="cal">12</div>
-    <div class="cal">13</div>
-    <div class="cal">14</div>
-    <div class="cal">15</div>
-    <div class="cal">16</div>
-    <div class="cal">17</div>
-    <div class="cal">18</div>  
-    <div class="cal">19</div>  
-    <div class="cal">20</div>
-    <div class="cal">21</div>
-    <div class="cal">22</div>
-    <div class="cal">23</div>
-    <div class="cal">24</div>
-</body>
+    <head>
+        <title>Julkalender</title>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <h1>Julkalendern</h1>
+        <input type="text" id="inp"/>
+        <button onclick="pressed()">tryck</button>
+        <div id="header">boi</div>
+        <script>
+            function pressed(){
+                var text = document.getElementById("inp").value;
+                if (X === "red"){
+                    document.getElementById("header").style.color = "red";
+                }else{
+                    document.getElementById("header").style.color = "brown";
+                }
+            }
+        </script>
+
+    </body>
 </html>
