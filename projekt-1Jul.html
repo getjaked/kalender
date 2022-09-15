@@ -3,328 +3,161 @@
     <head>
         <title>Julkalender</title>
         <meta charset="utf-8">
-
+        <link rel="stylesheet" href="Projekt-1Jul.CSS">
     </head>
     <body>
         <h1>Julkalendern</h1>
-        <input type="text" id="inp"/>
-        <button onclick="pressed1()">1</button>
-        <button onclick="pressed2()">2</button>
-        <button onclick="pressed3()">3</button>
-        <button onclick="pressed4()">4</button>
-        <button onclick="pressed5()">5</button>
-        <button onclick="pressed6()">6</button>
-        <button onclick="pressed7()">7</button>
-        <button onclick="pressed8()">8</button>
-        <button onclick="pressed9()">9</button>
-        <button onclick="pressed10()">10</button>
-        <button onclick="pressed11()">11</button>
-        <button onclick="pressed12()">12</button>
-        <button onclick="pressed13()">13</button>
-        <button onclick="pressed14()">14</button>
-        <button onclick="pressed15()">15</button>
-        <button onclick="pressed16()">16</button>
-        <button onclick="pressed17()">17</button>
-        <button onclick="pressed18()">18</button>
-        <button onclick="pressed19()">19</button>
-        <button onclick="pressed20()">20</button>
-        <button onclick="pressed21()">21</button>
-        <button onclick="pressed22()">22</button>
-        <button onclick="pressed23()">23</button>
-        <button onclick="pressed24()">24</button>
-        <div id="current_date"></p>
+
+        <div onclick="pressed1()">1
+            <img id="b1" src="brown.png" alt="">
+        </div>
+        <div onclick="pressed2()">2
+            <img id="b2" src="brown.png" alt="">
+        </div>
+        <div onclick="pressed3()">3
+            <img id="b3" src="brown.png" alt="">
+        </div>
+        <div onclick="pressed4()">4
+            <img id="b4" src="brown.png" alt="">
+        </div>
+        <div onclick="pressed5()">5
+            <img id="b5" src="brown.png" alt="">
+        </div>
+        <div onclick="pressed6()">6
+            <img id="b6" src="brown.png" alt="">
+        </div>
+        <div onclick="pressed7()">7
+            <img id="b7" src="brown.png" alt="">
+        </div>
+        <div onclick="pressed8()">8
+            <img id="b8" src="brown.png" alt="">
+        </div>
+        <div onclick="pressed9()">9
+            <img id="b9" src="brown.png" alt="">
+        </div>
+        <div onclick="pressed10()">10
+            <img id="b10" src="brown.png" alt="">
+        </div>
+        <div onclick="pressed11()">11
+            <img id="b11" src="brown.png" alt="">
+        </div>
+        <div onclick="pressed12()">12
+            <img id="b12" src="brown.png" alt="">
+        </div>
+        <div onclick="pressed13()">13
+            <img id="b13" src="brown.png" alt="">
+        </div>
+        <div onclick="pressed14()">14
+            <img id="b14" src="brown.png" alt="">
+        </div>
+        <div onclick="pressed15()">15
+            <img id="b15" src="brown.png" alt="">
+        </div>
+        <div onclick="pressed16()">16
+            <img id="b16" src="brown.png" alt="">
+        </div>
+        <div onclick="pressed17()">17
+            <img id="b17" src="brown.png" alt="">
+        </div>
+        <div onclick="pressed18()">18
+            <img id="b18" src="brown.png" alt="">
+        </div>
+        <div onclick="pressed19()">19
+            <img id="b19" src="brown.png" alt="">
+        </div>
+        <div onclick="pressed20()">20
+            <img id="b20" src="brown.png" alt="">
+        </div>
+        <div onclick="pressed21()">21
+            <img id="b21" src="brown.png" alt="">
+        </div>
+        <div onclick="pressed22()">22
+            <img id="b22" src="brown.png" alt="">
+        </div>
+        <div onclick="pressed23()">23
+            <img id="b23" src="brown.png" alt="">
+        </div>
+        <div onclick="pressed24()">24
+            <img id="b24" src="brown.png" alt="">
+        </div>
+        
+    <div id="current_date"></p>
         <script>
             document.getElementById("current_date").innerHTML = Date();
-        </script> 
-        <div id="header">boi</div>
+        </script>
+
         <script>
             function pressed1(){
-                var text = document.getElementById("inp").value;
-                console.log("inp")
-                switch (text){
-                    case "tomteluva.png":
-                        document.getElementById("header").image = image("tomteluva.png");
-                    break;
-                    default:
-                        document.getElementById("header").image = "brown";
-                    break;
-                }
+                document.getElementById("b1").src = "tomteluva.png";
             }
             function pressed2(){
-                var text = document.getElementById("inp").value;
-                console.log("inp")
-                switch (text){
-                    case "tomteluva.png":
-                        document.getElementById("header").image = image("tomteluva.png");
-                    break;
-                    default:
-                        document.getElementById("header").image = "brown";
-                    break;
-                }
+                document.getElementById("b2").src = "tomteluva.png";
             }  
             function pressed3(){
-                var text = document.getElementById("inp").value;
-                console.log("inp")
-                switch (text){
-                    case "tomteluva.png":
-                        document.getElementById("header").image = image("tomteluva.png");
-                    break;
-                    default:
-                        document.getElementById("header").image = "brown";
-                    break;
-                }
+                document.getElementById("b3").src = "tomteluva.png";
             }  
             function pressed4(){
-                var text = document.getElementById("inp").value;
-                console.log("inp")
-                switch (text){
-                    case "tomteluva.png":
-                        document.getElementById("header").image = image("tomteluva.png");
-                    break;
-                    default:
-                        document.getElementById("header").image = "brown";
-                    break;
-                }
+                document.getElementById("b4").src = "tomteluva.png";
             }  
             function pressed5(){
-                var text = document.getElementById("inp").value;
-                console.log("inp")
-                switch (text){
-                    case "tomteluva.png":
-                        document.getElementById("header").image = image("tomteluva.png");
-                    break;
-                    default:
-                        document.getElementById("header").image = "brown";
-                    break;
-                }
+                document.getElementById("b5").src = "tomteluva.png";
             }  
             function pressed6(){
-                var text = document.getElementById("inp").value;
-                console.log("inp")
-                switch (text){
-                    case "tomteluva.png":
-                        document.getElementById("header").image = image("tomteluva.png");
-                    break;
-                    default:
-                        document.getElementById("header").image = "brown";
-                    break;
-                }
+                document.getElementById("b6").src = "tomteluva.png";
             }  
             function pressed7(){
-                var text = document.getElementById("inp").value;
-                console.log("inp")
-                switch (text){
-                    case "tomteluva.png":
-                        document.getElementById("header").image = image("tomteluva.png");
-                    break;
-                    default:
-                        document.getElementById("header").image = "brown";
-                    break;
-                }
-            }    
+                document.getElementById("b7").src = "tomteluva.png";
+            }
             function pressed8(){
-                var text = document.getElementById("inp").value;
-                console.log("inp")
-                switch (text){
-                    case "tomteluva.png":
-                        document.getElementById("header").image = image("tomteluva.png");
-                    break;
-                    default:
-                        document.getElementById("header").image = "brown";
-                    break;
-                }
+                document.getElementById("b8").src = "tomteluva.png";
             }  
             function pressed9(){
-                var text = document.getElementById("inp").value;
-                console.log("inp")
-                switch (text){
-                    case "tomteluva.png":
-                        document.getElementById("header").image = image("tomteluva.png");
-                    break;
-                    default:
-                        document.getElementById("header").image = "brown";
-                    break;
-                }
+                document.getElementById("b9").src = "tomteluva.png";
             }  
             function pressed10(){
-                var text = document.getElementById("inp").value;
-                console.log("inp")
-                switch (text){
-                    case "tomteluva.png":
-                        document.getElementById("header").image = image("tomteluva.png");
-                    break;
-                    default:
-                        document.getElementById("header").image = "brown";
-                    break;
-                }
+                document.getElementById("b10").src = "tomteluva.png";
             }  
             function pressed11(){
-                var text = document.getElementById("inp").value;
-                console.log("inp")
-                switch (text){
-                    case "tomteluva.png":
-                        document.getElementById("header").image = image("tomteluva.png");
-                    break;
-                    default:
-                        document.getElementById("header").image = "brown";
-                    break;
-                }
+                document.getElementById("b11").src = "tomteluva.png";
             }  
             function pressed12(){
-                var text = document.getElementById("inp").value;
-                console.log("inp")
-                switch (text){
-                    case "tomteluva.png":
-                        document.getElementById("header").image = image("tomteluva.png");
-                    break;
-                    default:
-                        document.getElementById("header").image = "brown";
-                    break;
-                }
+                document.getElementById("b12").src = "tomteluva.png";
             }  
             function pressed13(){
-                var text = document.getElementById("inp").value;
-                console.log("inp")
-                switch (text){
-                    case "tomteluva.png":
-                        document.getElementById("header").image = image("tomteluva.png");
-                    break;
-                    default:
-                        document.getElementById("header").image = "brown";
-                    break;
-                }
+                document.getElementById("b13").src = "tomteluva.png";
             }  
             function pressed14(){
-                var text = document.getElementById("inp").value;
-                console.log("inp")
-                switch (text){
-                    case "tomteluva.png":
-                        document.getElementById("header").image = image("tomteluva.png");
-                    break;
-                    default:
-                        document.getElementById("header").image = "brown";
-                    break;
-                }
+                document.getElementById("b14").src = "tomteluva.png";
             }  
             function pressed15(){
-                var text = document.getElementById("inp").value;
-                console.log("inp")
-                switch (text){
-                    case "tomteluva.png":
-                        document.getElementById("header").image = image("tomteluva.png");
-                    break;
-                    default:
-                        document.getElementById("header").image = "brown";
-                    break;
-                }
+                document.getElementById("b15").src = "tomteluva.png";
             }  
             function pressed16(){
-                var text = document.getElementById("inp").value;
-                console.log("inp")
-                switch (text){
-                    case "tomteluva.png":
-                        document.getElementById("header").image = image("tomteluva.png");
-                    break;
-                    default:
-                        document.getElementById("header").image = "brown";
-                    break;
-                }
+                document.getElementById("b16").src = "tomteluva.png";
             }  
             function pressed17(){
-                var text = document.getElementById("inp").value;
-                console.log("inp")
-                switch (text){
-                    case "tomteluva.png":
-                        document.getElementById("header").image = image("tomteluva.png");
-                    break;
-                    default:
-                        document.getElementById("header").image = "brown";
-                    break;
-                }
+                document.getElementById("b17").src = "tomteluva.png";
             }  
             function pressed18(){
-                var text = document.getElementById("inp").value;
-                console.log("inp")
-                switch (text){
-                    case "tomteluva.png":
-                        document.getElementById("header").image = image("tomteluva.png");
-                    break;
-                    default:
-                        document.getElementById("header").image = "brown";
-                    break;
-                }
+                document.getElementById("b18").src = "tomteluva.png";
             }  
             function pressed19(){
-                var text = document.getElementById("inp").value;
-                console.log("inp")
-                switch (text){
-                    case "tomteluva.png":
-                        document.getElementById("header").image = image("tomteluva.png");
-                    break;
-                    default:
-                        document.getElementById("header").image = "brown";
-                    break;
-                }
+                document.getElementById("b19").src = "tomteluva.png";
             }  
             function pressed20(){
-                var text = document.getElementById("inp").value;
-                console.log("inp")
-                switch (text){
-                    case "tomteluva.png":
-                        document.getElementById("header").image = image("tomteluva.png");
-                    break;
-                    default:
-                        document.getElementById("header").image = "brown";
-                    break;
-                }
+                document.getElementById("b20").src = "tomteluva.png";
             }  
             function pressed21(){
-                var text = document.getElementById("inp").value;
-                console.log("inp")
-                switch (text){
-                    case "tomteluva.png":
-                        document.getElementById("header").image = image("tomteluva.png");
-                    break;
-                    default:
-                        document.getElementById("header").image = "brown";
-                    break;
-                }
+                document.getElementById("b21").src = "tomteluva.png";                
             }  
             function pressed22(){
-                var text = document.getElementById("inp").value;
-                console.log("inp")
-                switch (text){
-                    case "tomteluva.png":
-                        document.getElementById("header").image = image("tomteluva.png");
-                    break;
-                    default:
-                        document.getElementById("header").image = "brown";
-                    break;
-                }
+                document.getElementById("b22").src = "tomteluva.png";
             }  
             function pressed23(){
-                var text = document.getElementById("inp").value;
-                console.log("inp")
-                switch (text){
-                    case "tomteluva.png":
-                        document.getElementById("header").image = image("tomteluva.png");
-                    break;
-                    default:
-                        document.getElementById("header").image = "brown";
-                    break;
-                }
+                document.getElementById("b23").src = "tomteluva.png";
             }  
             function pressed24(){
-                var text = document.getElementById("inp").value;
-                console.log("inp")
-                switch (text){
-                    case "tomteluva.png":
-                        document.getElementById("header").image = image("tomteluva.png");
-                    break;
-                    default:
-                        document.getElementById("header").image = "brown";
-                    break;
-                }
+                document.getElementById("b24").src = "tomteluva.png";
             }  
         </script>   
     </body>
