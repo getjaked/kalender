@@ -1,10 +1,14 @@
 label {
     display: block;
     font: 1rem 'Fira Sans', sans-serif;
+    border:1px solid #900;
 }
 
-background {
-    
+body {
+    background-image: url(backbrown.jpg);
+    background-size: cover;
+    width: 100%;
+    height: auto;
 }
 
 div {
@@ -14,6 +18,10 @@ div {
     float:left;
     border:1px solid #000;
     margin:1em;
+}
+
+div_2 {
+
 }
 
 img {
