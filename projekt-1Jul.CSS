@@ -11,8 +11,16 @@ body {
     height: auto;
 }
 
+#D12 {
+    width:75%;
+    height:500px;
+    left: 200px;
+}
+
 #b0 {
     display:none;
+    position:absolute;
+    z-index:10000;
 }
 
 div {
