@@ -8,83 +8,82 @@
     <body>
         <h1>Julkalendern</h1>
 
-        <div 2>
-            <img id="RedX.jpg" alt="">
+        <div style="width:100%;height:500px;">
+            <img id="b0" src="RedX.jpg" alt="" onclick="">
+            <div onclick="pressed1()">1
+                <img id="b1" src="brown.png" alt="">
+            </div>
+            <div onclick="pressed2()">2
+                <img id="b2" src="brown.png" alt="">
+            </div>
+            <div onclick="pressed3()">3
+                <img id="b3" src="brown.png" alt="">
+            </div>
+            <div onclick="pressed4()">4
+                <img id="b4" src="brown.png" alt="">
+            </div>
+            <div onclick="pressed5()">5
+                <img id="b5" src="brown.png" alt="">
+            </div>
+            <div onclick="pressed6()">6
+                <img id="b6" src="brown.png" alt="">
+            </div>
+            <div onclick="pressed7()">7
+                <img id="b7" src="brown.png" alt="">
+            </div>
+            <div onclick="pressed8()">8
+                <img id="b8" src="brown.png" alt="">
+            </div>
+            <div onclick="pressed9()">9
+                <img id="b9" src="brown.png" alt="">
+            </div>
+            <div onclick="pressed10()">10
+                <img id="b10" src="brown.png" alt="">
+            </div>
+            <div onclick="pressed11()">11
+                <img id="b11" src="brown.png" alt="">
+            </div>
+            <div onclick="pressed12()">12
+                <img id="b12" src="brown.png" alt="">
+            </div>
+            <div onclick="pressed13()">13
+                <img id="b13" src="brown.png" alt="">
+            </div>
+            <div onclick="pressed14()">14
+                <img id="b14" src="brown.png" alt="">
+            </div>
+            <div onclick="pressed15()">15
+                <img id="b15" src="brown.png" alt="">
+            </div>
+            <div onclick="pressed16()">16
+                <img id="b16" src="brown.png" alt="">
+            </div>
+            <div onclick="pressed17()">17
+                <img id="b17" src="brown.png" alt="">
+            </div>
+            <div onclick="pressed18()">18
+                <img id="b18" src="brown.png" alt="">
+            </div>
+            <div onclick="pressed19()">19
+                <img id="b19" src="brown.png" alt="">
+            </div>
+            <div onclick="pressed20()">20
+                <img id="b20" src="brown.png" alt="">
+            </div>
+            <div onclick="pressed21()">21
+                <img id="b21" src="brown.png" alt="">
+            </div>
+            <div onclick="pressed22()">22
+                <img id="b22" src="brown.png" alt="">
+            </div>
+            <div onclick="pressed23()">23
+                <img id="b23" src="brown.png" alt="">
+            </div>
+            <div onclick="pressed24()">24
+                <img id="b24" src="brown.png" alt="">
+            </div>        
+            <div id="current_date"></p>
         </div>
-        <div onclick="pressed1()">1
-            <img id="b1" src="brown.png" alt="">
-        </div>
-        <div onclick="pressed2()">2
-            <img id="b2" src="brown.png" alt="">
-        </div>
-        <div onclick="pressed3()">3
-            <img id="b3" src="brown.png" alt="">
-        </div>
-        <div onclick="pressed4()">4
-            <img id="b4" src="brown.png" alt="">
-        </div>
-        <div onclick="pressed5()">5
-            <img id="b5" src="brown.png" alt="">
-        </div>
-        <div onclick="pressed6()">6
-            <img id="b6" src="brown.png" alt="">
-        </div>
-        <div onclick="pressed7()">7
-            <img id="b7" src="brown.png" alt="">
-        </div>
-        <div onclick="pressed8()">8
-            <img id="b8" src="brown.png" alt="">
-        </div>
-        <div onclick="pressed9()">9
-            <img id="b9" src="brown.png" alt="">
-        </div>
-        <div onclick="pressed10()">10
-            <img id="b10" src="brown.png" alt="">
-        </div>
-        <div onclick="pressed11()">11
-            <img id="b11" src="brown.png" alt="">
-        </div>
-        <div onclick="pressed12()">12
-            <img id="b12" src="brown.png" alt="">
-        </div>
-        <div onclick="pressed13()">13
-            <img id="b13" src="brown.png" alt="">
-        </div>
-        <div onclick="pressed14()">14
-            <img id="b14" src="brown.png" alt="">
-        </div>
-        <div onclick="pressed15()">15
-            <img id="b15" src="brown.png" alt="">
-        </div>
-        <div onclick="pressed16()">16
-            <img id="b16" src="brown.png" alt="">
-        </div>
-        <div onclick="pressed17()">17
-            <img id="b17" src="brown.png" alt="">
-        </div>
-        <div onclick="pressed18()">18
-            <img id="b18" src="brown.png" alt="">
-        </div>
-        <div onclick="pressed19()">19
-            <img id="b19" src="brown.png" alt="">
-        </div>
-        <div onclick="pressed20()">20
-            <img id="b20" src="brown.png" alt="">
-        </div>
-        <div onclick="pressed21()">21
-            <img id="b21" src="brown.png" alt="">
-        </div>
-        <div onclick="pressed22()">22
-            <img id="b22" src="brown.png" alt="">
-        </div>
-        <div onclick="pressed23()">23
-            <img id="b23" src="brown.png" alt="">
-        </div>
-        <div onclick="pressed24()">24
-            <img id="b24" src="brown.png" alt="">
-        </div>
-        
-    <div id="current_date"></p>
         <script>
             document.getElementById("current_date").innerHTML = Date();
         </script>
@@ -92,9 +91,10 @@
         <script>
             function pressed1(){
                 var today = document.getElementById("current_date").value;
-                if(today === 01/12/22){
+                if(today === 06/10/22){
                     document.getElementById("b1").src = "tomteluva.png";
                 }else{
+                    document.getElementById("b0").style.display = 'block';
                     document.getElementById("b0").src = "RedX.jpg";
                 }    
             }   
@@ -103,7 +103,8 @@
                 if(today === 02/12/22){
                     document.getElementById("b2").src = "tomteluva.png";
                 }else{
-                    document.getElementById("b0").src = "";
+                    document.getElementById("b0").style.display = 'block';
+                    document.getElementById("b0").src = "RedX.jpg";
                 }
             }  
             function pressed3(){
@@ -111,7 +112,8 @@
                 if(today === 03/12/22){
                     document.getElementById("b3").src = "tomteluva.png";
                 }else{
-                    document.getElementById("b0").src = "";
+                    document.getElementById("b0").style.display = 'block';
+                    document.getElementById("b0").src = "RedX.jpg";
                 }
             }  
             function pressed4(){
@@ -119,7 +121,8 @@
                 if(today === 04/12/22){
                     document.getElementById("b4").src = "tomteluva.png";
                 }else{
-                    document.getElementById("b0").src = "";
+                    document.getElementById("b0").style.display = 'block';
+                    document.getElementById("b0").src = "RedX.jpg";
                 }
             }  
             function pressed5(){
@@ -127,7 +130,8 @@
                 if(today === 05/12/22){
                     document.getElementById("b5").src = "tomteluva.png";
                 }else{
-                    document.getElementById("b0").src = "";
+                    document.getElementById("b0").style.display = 'block';
+                    document.getElementById("b0").src = "RedX.jpg";
                 }
             }  
             function pressed6(){
@@ -135,7 +139,8 @@
                 if(today === 06/12/22){
                     document.getElementById("b6").src = "tomteluva.png";
                 }else{
-                    document.getElementById("b0").src = "";
+                    document.getElementById("b0").style.display = 'block';
+                    document.getElementById("b0").src = "RedX.jpg";
                 }
             }  
             function pressed7(){
@@ -143,7 +148,8 @@
                 if(today === 07/12/22){
                     document.getElementById("b7").src = "tomteluva.png";
                 }else{
-                    document.getElementById("b0").src = "";
+                    document.getElementById("b0").style.display = 'block';
+                    document.getElementById("b0").src = "RedX.jpg";
                 }
             }
             function pressed8(){
@@ -151,7 +157,8 @@
                 if(today === 08/12/22){
                     document.getElementById("b8").src = "tomteluva.png";
                 }else{
-                    document.getElementById("b0").src = "";
+                    document.getElementById("b0").style.display = 'block';
+                    document.getElementById("b0").src = "RedX.jpg";
                 }
             }  
             function pressed9(){
@@ -159,7 +166,8 @@
                 if(today === 09/12/22){
                     document.getElementById("b9").src = "tomteluva.png";
                 }else{
-                    document.getElementById("b0").src = "";
+                    document.getElementById("b0").style.display = 'block';
+                    document.getElementById("b0").src = "RedX.jpg";
                 }
             }  
             function pressed10(){
@@ -167,7 +175,8 @@
                 if(today === 10/12/22){
                     document.getElementById("b10").src = "tomteluva.png";
                 }else{
-                    document.getElementById("b0").src = "";
+                    document.getElementById("b0").style.display = 'block';
+                    document.getElementById("b0").src = "RedX.jpg";
                 }
             }  
             function pressed11(){
@@ -175,7 +184,8 @@
                 if(today === 11/12/22){
                     document.getElementById("b11").src = "tomteluva.png";
                 }else{
-                    document.getElementById("b0").src = "";
+                    document.getElementById("b0").style.display = 'block';
+                    document.getElementById("b0").src = "RedX.jpg";
                 }
             }  
             function pressed12(){
@@ -183,7 +193,8 @@
                 if(today === 12/12/22){
                     document.getElementById("b12").src = "tomteluva.png";
                 }else{
-                    document.getElementById("b0").src = "";
+                    document.getElementById("b0").style.display = 'block';
+                    document.getElementById("b0").src = "RedX.jpg";
                 }
             }  
             function pressed13(){
@@ -191,7 +202,8 @@
                 if(today === 13/12/22){
                     document.getElementById("b13").src = "tomteluva.png";
                 }else{
-                    document.getElementById("b0").src = "";
+                    document.getElementById("b0").style.display = 'block';
+                    document.getElementById("b0").src = "RedX.jpg";
                 }
             }  
             function pressed14(){
@@ -199,7 +211,8 @@
                 if(today === 14/12/22){
                     document.getElementById("b14").src = "tomteluva.png";
                 }else{
-                    document.getElementById("b0").src = "";
+                    document.getElementById("b0").style.display = 'block';
+                    document.getElementById("b0").src = "RedX.jpg";
                 }
             }  
             function pressed15(){
@@ -207,7 +220,8 @@
                 if(today === 15/12/22){
                     document.getElementById("b15").src = "tomteluva.png";
                 }else{
-                    document.getElementById("b0").src = "";
+                    document.getElementById("b0").style.display = 'block';
+                    document.getElementById("b0").src = "RedX.jpg";
                 }
             }  
             function pressed16(){
@@ -215,7 +229,8 @@
                 if(today === 16/12/22){
                     document.getElementById("b16").src = "tomteluva.png";
                 }else{
-                    document.getElementById("b0").src = "";
+                    document.getElementById("b0").style.display = 'block';
+                    document.getElementById("b0").src = "RedX.jpg";
                 }
             }  
             function pressed17(){
@@ -223,7 +238,8 @@
                 if(today === 17/12/22){
                     document.getElementById("b17").src = "tomteluva.png";
                 }else{
-                    document.getElementById("b0").src = "";
+                    document.getElementById("b0").style.display = 'block';
+                    document.getElementById("b0").src = "RedX.jpg";
                 }
             }  
             function pressed18(){
@@ -231,7 +247,8 @@
                 if(today === 18/12/22){
                     document.getElementById("b18").src = "tomteluva.png";
                 }else{
-                    document.getElementById("b0").src = "";
+                    document.getElementById("b0").style.display = 'block';
+                    document.getElementById("b0").src = "RedX.jpg";
                 }
             }  
             function pressed19(){
@@ -239,7 +256,8 @@
                 if(today === 19/12/22){
                     document.getElementById("b19").src = "tomteluva.png";
                 }else{
-                    document.getElementById("b0").src = "";
+                    document.getElementById("b0").style.display = 'block';
+                    document.getElementById("b0").src = "RedX.jpg";
                 }
             }  
             function pressed20(){
@@ -247,7 +265,8 @@
                 if(today === 20/12/22){
                     document.getElementById("b20").src = "tomteluva.png";
                 }else{
-                    document.getElementById("b0").src = "";
+                    document.getElementById("b0").style.display = 'block';
+                    document.getElementById("b0").src = "RedX.jpg";
                 }
             }  
             function pressed21(){
@@ -255,7 +274,8 @@
                 if(today === 21/12/22){
                     document.getElementById("b21").src = "tomteluva.png";
                 }else{
-                    document.getElementById("b0").src = "";
+                    document.getElementById("b0").style.display = 'block';
+                    document.getElementById("b0").src = "RedX.jpg";
                 }                
             }  
             function pressed22(){
@@ -263,7 +283,8 @@
                 if(today === 22/12/22){
                     document.getElementById("b22").src = "tomteluva.png";
                 }else{
-                    document.getElementById("b0").src = "";
+                    document.getElementById("b0").style.display = 'block';
+                    document.getElementById("b0").src = "RedX.jpg";
                 }
             }  
             function pressed23(){
@@ -271,7 +292,8 @@
                 if(today === 23/12/22){
                     document.getElementById("b23").src = "tomteluva.png";
                 }else{
-                    document.getElementById("b0").src = "";
+                    document.getElementById("b0").style.display = 'block';
+                    document.getElementById("b0").src = "RedX.jpg";
                 }
             }  
             function pressed24(){
@@ -279,7 +301,8 @@
                 if(today === 24/12/22){
                     document.getElementById("b24").src = "tomteluva.png";
                 }else{
-                    document.getElementById("b0").src = "";
+                    document.getElementById("b0").style.display = 'block';
+                    document.getElementById("b0").src = "RedX.jpg";
                 }
             }  
         </script>   

@@ -11,6 +11,10 @@ body {
     height: auto;
 }
 
+#b0 {
+    display:none;
+}
+
 div {
     position: relative;
     width:100px;
@@ -18,10 +22,6 @@ div {
     float:left;
     border:1px solid #000;
     margin:1em;
-}
-
-div_2 {
-
 }
 
 img {
