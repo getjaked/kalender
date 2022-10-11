@@ -6,6 +6,7 @@
         <link rel="stylesheet" href="Projekt-1Jul.CSS">
     </head>
     <body>
+        <script src="projekt-1Jul.JS"></script>
         <h1>Julkalendern</h1>
 
         <div id="D12">
@@ -84,17 +85,17 @@
             </div>        
             <div id="current_date"></p>
         </div>
+        
         <script>
             document.getElementById("current_date").innerHTML = Date();
         </script>
-        
         <script>
             function hide1(){
                 document.getElementById("b0").style.display = 'none';
             }
             function pressed1(){
                 var today = document.getElementById("current_date").value;
-                if(today === 02/12/22){
+                if(year== 2022 && month == 9 && day == 11){
                     document.getElementById("b1").src = "tomteluva.png";
                 }else{
                     document.getElementById("b0").style.display = 'block';
@@ -310,4 +311,5 @@
             }  
         </script>   
     </body>
+    
 </html>
