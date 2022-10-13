@@ -20,8 +20,7 @@
                 
             }
             ?>        
-        </div>
-        
+        </div>        
         
         <script>
             function hide1(){
