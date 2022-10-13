@@ -11,78 +11,15 @@
 
         <div id="D12">
             <img id="b0" src="RedX.jpg" alt="" onclick="hide1()">
-            <div onclick="pressed1()">1
-                <img id="b1" src="brown.png" alt="">
-            </div>
-            <div onclick="pressed2()">2
-                <img id="b2" src="brown.png" alt="">
-            </div>
-            <div onclick="pressed3()">3
-                <img id="b3" src="brown.png" alt="">
-            </div>
-            <div onclick="pressed4()">4
-                <img id="b4" src="brown.png" alt="">
-            </div>
-            <div onclick="pressed5()">5
-                <img id="b5" src="brown.png" alt="">
-            </div>
-            <div onclick="pressed6()">6
-                <img id="b6" src="brown.png" alt="">
-            </div>
-            <div onclick="pressed7()">7
-                <img id="b7" src="brown.png" alt="">
-            </div>
-            <div onclick="pressed8()">8
-                <img id="b8" src="brown.png" alt="">
-            </div>
-            <div onclick="pressed9()">9
-                <img id="b9" src="brown.png" alt="">
-            </div>
-            <div onclick="pressed10()">10
-                <img id="b10" src="brown.png" alt="">
-            </div>
-            <div onclick="pressed11()">11
-                <img id="b11" src="brown.png" alt="">
-            </div>
-            <div onclick="pressed12()">12
-                <img id="b12" src="brown.png" alt="">
-            </div>
-            <div onclick="pressed13()">13
-                <img id="b13" src="brown.png" alt="">
-            </div>
-            <div onclick="pressed14()">14
-                <img id="b14" src="brown.png" alt="">
-            </div>
-            <div onclick="pressed15()">15
-                <img id="b15" src="brown.png" alt="">
-            </div>
-            <div onclick="pressed16()">16
-                <img id="b16" src="brown.png" alt="">
-            </div>
-            <div onclick="pressed17()">17
-                <img id="b17" src="brown.png" alt="">
-            </div>
-            <div onclick="pressed18()">18
-                <img id="b18" src="brown.png" alt="">
-            </div>
-            <div onclick="pressed19()">19
-                <img id="b19" src="brown.png" alt="">
-            </div>
-            <div onclick="pressed20()">20
-                <img id="b20" src="brown.png" alt="">
-            </div>
-            <div onclick="pressed21()">21
-                <img id="b21" src="brown.png" alt="">
-            </div>
-            <div onclick="pressed22()">22
-                <img id="b22" src="brown.png" alt="">
-            </div>
-            <div onclick="pressed23()">23
-                <img id="b23" src="brown.png" alt="">
-            </div>
-            <div onclick="pressed24()">24
-                <img id="b24" src="brown.png" alt="">
-            </div>        
+
+            <?php
+            for($i=1;$i<24;$i++) {
+                echo "<div onclick='pressed{$i}()'>1";
+                echo "<img id='b{$i}' src='brown.png' alt=''>";
+                echo "</div>";
+                
+            }
+            ?>        
         </div>
         
         
@@ -90,9 +27,10 @@
             function hide1(){
                 document.getElementById("b0").style.display = 'none';
             }
+
             function pressed1(){
                 //var today = document.getElementById("current_date").value;
-                if(year== 2022 && month == 9 && day == 12){
+                if(year== 2022 && month == 11 && day == 1){
                     document.getElementById("b1").src = "tomteluva.png";
                 }else{
                     document.getElementById("b0").style.display = 'block';
